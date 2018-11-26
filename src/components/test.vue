@@ -1,23 +1,14 @@
 <template lang="pug">
-  div.aaaa
+  div
     | item
 </template>
 
-<script>
-export default {
-  name: 'test',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
+<style lang="scss">
+  div {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
   }
-}
-</script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-.aaaa {
-  background: black;
-  color: white;
-}
 </style>
